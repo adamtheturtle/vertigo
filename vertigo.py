@@ -166,6 +166,7 @@ class VM(object):
             sep = ":"
 
         for line in rawinfo.splitlines():
+            line = line.decode()
             parts = line.split(sep)
 
             # Work with multiline key-value pairs
