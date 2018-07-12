@@ -1,8 +1,8 @@
 import re
 import subprocess
-import constants
+from . import constants
 
-from error import *
+from .error import *
 
 # functions that don't fall into the VM class
 
